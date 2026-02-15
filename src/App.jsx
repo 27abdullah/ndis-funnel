@@ -50,14 +50,15 @@ function App() {
                             <span className="bg-gradient-to-r from-purple-600 to-purple-800 bg-clip-text text-transparent">
                                 $50,000+
                             </span>{" "}
-                            to Pen & Paper Process
+                            to Manual Process
                         </h1>
 
                         {/* Subheadline */}
                         <p className="text-xl sm:text-2xl text-gray-600 mb-10 leading-relaxed">
-                            AI-powered automation built for NDIS providers, plan
-                            managers, and support coordinators. Reduce overhead,
-                            eliminate errors, and scale effortlessly.
+                            Connect directly to the NDIA's PACE system. Reduce
+                            administrative overhead by 70%, eliminate manual
+                            data entry, and scale your operations without
+                            increasing headcount.
                         </p>
 
                         {/* CTA Buttons */}
@@ -66,7 +67,7 @@ function App() {
                                 onClick={openModal}
                                 className="w-full sm:w-auto bg-gradient-to-r from-purple-600 to-purple-700 text-white px-10 py-6 rounded-full text-2xl font-semibold hover:from-purple-700 hover:to-purple-800 transition-all duration-300 shadow-2xl hover:shadow-purple-500/50 transform hover:-translate-y-1"
                             >
-                                Starting Saving
+                                Connect to PACE
                             </button>
                         </div>
 
@@ -84,11 +85,11 @@ function App() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-                            Your Team is Burning Time on Tasks AI Can Handle
+                            Stop Losing Money to Manual Processes
                         </h2>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                            Every hour spent on manual processes is an hour not
-                            spent growing your business
+                            PACE integration eliminates costly admin overhead
+                            while improving accuracy and compliance
                         </p>
                     </div>
 
@@ -100,9 +101,10 @@ function App() {
                                 Lower Operating Costs
                             </h3>
                             <p className="text-gray-600">
-                                Reduce administrative overhead by up to 70%
-                                while maintaining—or improving—quality and
-                                compliance standards
+                                PACE integration reduces administrative overhead
+                                by up to 70%. Automate claims, budgets, and
+                                compliance checks without hiring additional
+                                staff
                             </p>
                         </div>
 
@@ -113,9 +115,9 @@ function App() {
                                 10x Faster Processing
                             </h3>
                             <p className="text-gray-600">
-                                Complete tasks in minutes that used to take
-                                hours. Claims, reports, documentation—all
-                                automated intelligently
+                                Submit bulk payment requests directly to PACE in
+                                minutes. Real-time validation against
+                                participant budgets means faster payments
                             </p>
                         </div>
 
@@ -126,9 +128,9 @@ function App() {
                                 Scale Without Hiring
                             </h3>
                             <p className="text-gray-600">
-                                Grow your participant base and revenue without
-                                proportionally increasing your team size or
-                                workload
+                                PACE APIs handle increased participant volume
+                                automatically. Grow your revenue without
+                                proportionally increasing your team size
                             </p>
                         </div>
 
@@ -139,9 +141,9 @@ function App() {
                                 Zero Human Error
                             </h3>
                             <p className="text-gray-600">
-                                AI-powered validation ensures accuracy across
-                                claims, compliance, and documentation—every
-                                single time
+                                Built-in validation against PACE support
+                                catalogue and plan rules ensures accuracy across
+                                claims, compliance, and documentation
                             </p>
                         </div>
                     </div>
@@ -153,12 +155,12 @@ function App() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-                            Automation That Works While You Sleep
+                            PACE-Powered Automation That Works While You Sleep
                         </h2>
                         <p className="text-xl text-purple-100 max-w-3xl mx-auto">
-                            Focus on delivering exceptional care while AI
-                            handles everything else—compliance, claims,
-                            documentation, and reporting
+                            Focus on delivering exceptional care while PACE
+                            integration handles claims, compliance,
+                            documentation, and reporting automatically
                         </p>
                     </div>
 
@@ -166,45 +168,47 @@ function App() {
                         {/* Feature 1 */}
                         <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20 hover:bg-white/15 transition-all duration-300">
                             <div className="w-12 h-12 bg-green-400 rounded-full flex items-center justify-center mb-4">
-                                <span className="text-2xl">🤖</span>
+                                <span className="text-2xl">📋</span>
                             </div>
                             <h3 className="text-2xl font-bold mb-3">
-                                Intelligent Automation
+                                Plan & Budget APIs
                             </h3>
                             <p className="text-purple-100">
-                                AI that learns your workflows and automates
-                                repetitive tasks—from data entry to report
-                                generation and everything in between
+                                Retrieve participant plans with goals, approved
+                                budgets, support categories, and remaining
+                                amounts—all with participant consent management
+                                built in
                             </p>
                         </div>
 
                         {/* Feature 2 */}
                         <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20 hover:bg-white/15 transition-all duration-300">
                             <div className="w-12 h-12 bg-green-400 rounded-full flex items-center justify-center mb-4">
-                                <span className="text-2xl">✓</span>
+                                <span className="text-2xl">💳</span>
                             </div>
                             <h3 className="text-2xl font-bold mb-3">
-                                Built-In Compliance
+                                Payments API
                             </h3>
                             <p className="text-purple-100">
-                                Stay audit-ready 24/7 with automated compliance
-                                tracking, documentation, and real-time alerts
-                                for potential issues
+                                Submit single or bulk payment requests with
+                                automatic validation. Track submission status
+                                from pending to paid with full reconciliation
                             </p>
                         </div>
 
                         {/* Feature 3 */}
                         <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20 hover:bg-white/15 transition-all duration-300">
                             <div className="w-12 h-12 bg-green-400 rounded-full flex items-center justify-center mb-4">
-                                <span className="text-2xl">📊</span>
+                                <span className="text-2xl">🗂️</span>
                             </div>
                             <h3 className="text-2xl font-bold mb-3">
-                                Real-Time Insights
+                                Support Catalogue
                             </h3>
                             <p className="text-purple-100">
-                                Make data-driven decisions with dashboards that
-                                surface trends, opportunities, and potential
-                                risks before they become problems
+                                Access the complete NDIS support catalogue with
+                                item numbers, pricing, registration
+                                requirements, and flexible vs stated
+                                classifications
                             </p>
                         </div>
                     </div>
@@ -214,7 +218,7 @@ function App() {
                             onClick={openModal}
                             className="bg-white text-purple-700 px-10 py-5 rounded-full text-xl font-bold hover:bg-purple-50 transition-all duration-300 shadow-2xl hover:shadow-white/30 transform hover:-translate-y-1"
                         >
-                            Transform Your Operations →
+                            Start PACE Integration →
                         </button>
                     </div>
                 </div>
@@ -225,12 +229,11 @@ function App() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-                            Purpose-Built for Every NDIS Stakeholder
+                            Built for Every NDIS Role
                         </h2>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                            Whether you manage plans, deliver services, or
-                            coordinate support—automation tailored to your
-                            unique challenges
+                            PACE integration tailored to your specific needs and
+                            compliance requirements
                         </p>
                     </div>
 
@@ -248,10 +251,11 @@ function App() {
                                             NDIS Providers
                                         </h3>
                                         <p className="text-gray-600">
-                                            Streamline operations, reduce admin
-                                            burden, and improve service delivery
-                                            with automated workflows and
-                                            real-time visibility
+                                            Streamline operations and reduce
+                                            admin burden with PACE APIs. Submit
+                                            claims instantly, access real-time
+                                            budgets, and improve service
+                                            delivery
                                         </p>
                                     </div>
                                 </div>
@@ -267,10 +271,11 @@ function App() {
                                             Plan Managers
                                         </h3>
                                         <p className="text-gray-600">
-                                            Process more plans with fewer
-                                            errors, faster turnaround times, and
-                                            complete financial transparency for
-                                            participants
+                                            Process more plans with fewer errors
+                                            and faster turnaround. PACE
+                                            integration provides complete
+                                            financial transparency and real-time
+                                            budget tracking
                                         </p>
                                     </div>
                                 </div>
@@ -287,9 +292,10 @@ function App() {
                                         </h3>
                                         <p className="text-gray-600">
                                             Manage larger caseloads effectively
-                                            with automated tracking, reporting,
-                                            and proactive insights on
-                                            participant progress
+                                            with PACE integration. Access
+                                            participant goals, plan supports,
+                                            and automated tracking with
+                                            proactive insights
                                         </p>
                                     </div>
                                 </div>
@@ -305,9 +311,10 @@ function App() {
                                             Support Businesses
                                         </h3>
                                         <p className="text-gray-600">
-                                            Scale operations profitably without
-                                            proportional increases in overhead,
-                                            staff, or complexity
+                                            Scale operations profitably with
+                                            PACE APIs. Grow participant numbers
+                                            without proportional increases in
+                                            overhead, staff, or complexity
                                         </p>
                                     </div>
                                 </div>
@@ -334,18 +341,18 @@ function App() {
                                 </div>
                                 <div className="flex justify-between items-center pb-3 border-b border-purple-100">
                                     <span className="text-gray-700">
-                                        Error reduction
+                                        Processing speed
                                     </span>
                                     <span className="font-bold text-green-600">
-                                        Up to 95%
+                                        10x faster
                                     </span>
                                 </div>
                                 <div className="flex justify-between items-center pb-3 border-b border-purple-100">
                                     <span className="text-gray-700">
-                                        Processing speed
+                                        PACE API version
                                     </span>
                                     <span className="font-bold text-purple-600">
-                                        10x faster
+                                        v4.0
                                     </span>
                                 </div>
                                 <div className="flex justify-between items-center">
@@ -366,21 +373,22 @@ function App() {
             <section className="py-24 bg-gradient-to-br from-purple-600 via-purple-700 to-purple-800">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-                        Ready to Transform Your Operations?
+                        Ready to Save $50,000+ Annually?
                     </h2>
                     <p className="text-xl sm:text-2xl text-purple-100 mb-10">
-                        Join forward-thinking NDIS businesses already boosting
-                        profit margins and reclaiming their time
+                        Join forward-thinking NDIS businesses already using PACE
+                        integration to boost profit margins and reclaim their
+                        time
                     </p>
                     <button
                         onClick={openModal}
                         className="bg-white text-purple-700 px-12 py-5 rounded-full text-xl font-bold hover:bg-purple-50 transition-all duration-300 shadow-2xl hover:shadow-white/30 transform hover:-translate-y-1 mb-6"
                     >
-                        Book consultation now
+                        Start Saving with PACE
                     </button>
                     <p className="text-purple-200 text-sm">
-                        ✓ No credit card required ✓ 5-minute setup ✓ Cancel
-                        anytime
+                        ✓ No credit card required ✓ Quick API setup ✓ Full
+                        technical support
                     </p>
                 </div>
             </section>
